@@ -1,0 +1,83 @@
+* {
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+  }
+  
+  nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    flex: 1;
+    list-style: none;
+  }
+  
+  a {
+    text-decoration: none;
+    color: brown;
+  }
+  
+  a:visited {
+    text-decoration: none;
+    color: rgb(62, 170, 219);
+  }
+
+  #Banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 280px;
+    background-image: url("./assets/img/foto_capa.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+  h1 {
+    font-family: "Poppins", sans-serif;
+    font-size: 60px;
+    color: #fff;
+    text-align: center;
+  }
+}
+
+article ul {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  justify-content: center;  
+
+  li{
+    list-style: none;
+
+    
+  }
+}
+
+#Pratos{
+  height: 200px;
+  background-color: rgb(17, 15, 107); /* For browsers that do not support gradients */
+  background-image: linear-gradient(to bottom right, blue, black);
+}
+
+.CardPrato{
+  
+  background-color: #fff;
+  border: #aaa solid 1px;
+  border-radius: 15px;
+  padding: 30px;
+  margin: 32px;
+}
